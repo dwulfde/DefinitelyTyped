@@ -1334,6 +1334,11 @@ declare module paper {
         style: Style;
 
         /**
+         * Specifies whether the item is locked. When set to true, item interactions with the mouse are disabled
+         */
+        locked: boolean;
+
+        /**
          * Specifies whether the item is visible. When set to false, the item won't be drawn.
          */
         visible: boolean;
